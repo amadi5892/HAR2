@@ -1,25 +1,54 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
-function App() {
+import Home from './components/Home/Home';
+import Buyers from './components/Buyers/Buyers';
+import Sellers from './components/Sellers/Sellers';
+import LoanModification from './components/LoanModification/LoanModification';
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/buyers">Buyers</Link>
+            </li>
+            <li>
+              <Link to="/sellers">Sellers</Link>
+            </li>
+            <li>
+              <Link to="/loanmodification">Loan Modification</Link>
+            </li>
+          </ul>
+        </nav>
+
+        {/* A <Switch> looks through its children <Route>s and
+            renders the first one that matches the current URL. */}
+        <Switch>
+          <Route path="/buyers">
+            <Buyers />
+          </Route>
+          <Route path="/sellers">
+            <Sellers />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+          <Route path="/loadmodification">
+            <LoanModification />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
-
-export default App;
