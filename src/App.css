@@ -33,22 +33,20 @@ body {
 }
 
 .nav {
-  border: 1px solid black;
+  background: rgb(129, 28, 28);
   display: flex;
   flex-direction: row;
 }
 
 .logo {
-  border: 1px solid red;
   width: 100px;
   height: 100px;
 }
 
 .nav-list {
-  border: 1px solid yellow;
   width: 620px;
   height: auto;
-  margin-left: 620px;
+  margin: 20px 0 0 620px;
   padding: 0;
   display: flex;
   flex-direction: row;
@@ -57,9 +55,19 @@ body {
 }
 
 .nav-list a {
+  color: white;
   text-decoration: none;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
   width: 100%;
   display: block;
   box-sizing: border-box;
   margin-top: 10px;
+}
+
+.title {
+  color: white;
+  margin-top: 20px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
 }
