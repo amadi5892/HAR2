@@ -11,12 +11,17 @@ import Buyers from './components/Buyers/Buyers';
 import Sellers from './components/Sellers/Sellers';
 import LoanModification from './components/LoanModification/LoanModification';
 
+import './App.css';
+
 export default function App() {
   return (
     <Router>
       <div>
-        <nav>
-          <ul>
+        <nav className="nav">
+          <div className="logo">
+            <h3>Logo</h3>
+          </div>
+          <ul className="nav-list">
             <li>
               <Link to="/">Home</Link>
             </li>
