@@ -21,6 +21,9 @@ export default function App() {
           <div className="logo">
             <h3>Logo</h3>
           </div>
+          <div className="title">
+            <h2>Home Affordable Realty Corp.</h2>
+          </div>
           <ul className="nav-list">
             <li>
               <Link to="/">Home</Link>
