@@ -4,6 +4,7 @@ import React, {Component}  from 'react';
 
 import './Home.css';
 import Commitment from './Commitment/Commitment';
+import Services from './Services/Services';
 
 class Home extends Component {
     render() {
@@ -13,6 +14,7 @@ class Home extends Component {
                     <h1 className="home-msg">Where Dream Homes<br></br>Do Come True</h1>
                 </div>
                 <Commitment />
+                <Services />
             </div>
             
         );
