@@ -7,9 +7,12 @@ import './Home.css';
 class Home extends Component {
     render() {
         return (
-            <div className="home-container">
-
+            <div>
+                <div className="home-container">
+                    <h1 className="home-msg">Where Dream Homes<br></br>Do Come True</h1>
+                </div>
             </div>
+            
         );
     }
 }

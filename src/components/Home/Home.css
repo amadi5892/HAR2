@@ -6,3 +6,25 @@
     background-position: center;
     background-attachment: fixed;
 }
+
+.home-msg::before {
+    display: block;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    content: " ";
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.home-msg {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    text-align: center;
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 300px;
+    top: 600px;
+    color: white;
+}
