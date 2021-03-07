@@ -1,0 +1,61 @@
+.monetary-container {
+    width: 100%;
+    height: 100vh;
+    padding-top: 100px;
+}
+
+.invest-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.loan-info {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.invest-card {
+    width: 620px;
+    height: 375px;
+    margin-left: 310px;
+}
+
+.invest-heading {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.invest-img {
+    width: 620px;
+    height: 350px;
+    margin: 10px 0 0 60px;
+}
+
+.invest-para {
+    margin-top: 15px;
+    font-size: 80%;
+    width: 75%;
+    height: 100px;
+}
+
+.invest-btn {
+    width: 225px;
+    height: 50px;
+    margin-top: 25px;
+    background-color: transparent;
+    border: 2px solid rgb(129, 28, 28);
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 17px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.invest-btn:hover,
+.invest-btn:active {
+    background-color: rgb(129,28,28);
+    color: white;
+    cursor: pointer;
+}

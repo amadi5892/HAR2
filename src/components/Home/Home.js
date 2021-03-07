@@ -5,6 +5,7 @@ import React, {Component}  from 'react';
 import './Home.css';
 import Commitment from './Commitment/Commitment';
 import Services from './Services/Services';
+import Monetary from './Monetary/Monetary';
 
 class Home extends Component {
     render() {
@@ -15,6 +16,7 @@ class Home extends Component {
                 </div>
                 <Commitment />
                 <Services />
+                <Monetary />
             </div>
             
         );
