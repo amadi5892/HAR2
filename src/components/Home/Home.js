@@ -6,6 +6,7 @@ import './Home.css';
 import Commitment from './Commitment/Commitment';
 import Services from './Services/Services';
 import Monetary from './Monetary/Monetary';
+import Footer from '../Footer/Footer';
 
 class Home extends Component {
     render() {
@@ -17,6 +18,7 @@ class Home extends Component {
                 <Commitment />
                 <Services />
                 <Monetary />
+                <Footer />
             </div>
             
         );
