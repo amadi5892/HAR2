@@ -52,7 +52,7 @@ export default function App() {
           <Route path="/">
             <Home />
           </Route>
-          <Route path="/loadmodification">
+          <Route path="/loanmodification">
             <LoanModification />
           </Route>
         </Switch>
