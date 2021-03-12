@@ -2,12 +2,16 @@
     width: 100%;
     height: 100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding-top: 60px;
 }
 
+.buyers-main {
+    display: flex;
+    flex-direction: row;
+}
+
 .buyers-section {
-    border: 1px solid red;
     width: 620px;
     height: 450px;
     margin-left: 310px;
@@ -26,11 +30,30 @@
 }
 
 .buyers-para {
-    border: 1px solid yellow;
     width: 560px;
     height: auto;
     margin-top: 30px;
     font-size: 80%;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
+}
+
+.buyers-needs {
+    border: 1px solid pink;
+    width: 1300px;
+    height: auto;
+    margin-left: 310px;
+    padding-top: 60px;
+}
+
+.needs-items {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.needs-card {
+    border: 1px solid blue;
+    width: 200px;
+    height: 150px;
 }
