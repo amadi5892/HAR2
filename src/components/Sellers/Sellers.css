@@ -1,58 +1,39 @@
-.buyers-container {
+.sellers-container {
     width: 100%;
     height: 100vh;
+    padding-top: 125px;
     display: flex;
     flex-direction: column;
-    padding-top: 125px;
 }
 
-.buyers-main {
+.sellers-main {
     display: flex;
     flex-direction: row;
 }
 
-.buyers-section {
+.sellers-section {
     width: 620px;
     height: 450px;
     margin-left: 310px;
 }
 
-.buyers-img {
+.sellers-img {
     width: 680px;
     height: 450px;
 }
 
-.buyers-heading {
+.sellers-heading {
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
 }
 
-.buyers-para {
+.sellers-para {
     width: 560px;
     height: auto;
     margin-top: 30px;
     font-size: 80%;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
-}
-
-.buyers-needs {
-    display: flex;
-    flex-direction: row;
-    width: 1300px;
-    height: auto;
-    margin-left: 310px;
-    padding-top: 60px;
-}
-
-.buyers-right {
-    margin-left: 60px;
-}
-
-.needs-items {
-    display: flex;
-    flex-direction: row;
-    margin-top: 30px;
 }

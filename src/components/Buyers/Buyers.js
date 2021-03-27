@@ -21,13 +21,12 @@ class Buyers extends Component {
                 </div>
                 <div className="buyers-needs">
                     <div>
-                        <h3 className="buyers-heading">Needs List</h3>
-                        <p className="buyers-para">Ready to get started? Take a look at the 'Needs List', so when you're ready to get started we have everything we need to serve you. </p>
+                        <h3 className="buyers-heading">Real Listings</h3>
+                        <p className="buyers-para">Unfortunately, many buyers are mislead by websites like Trulia, Zillow and more. They're wonderful when it comes to learning the neighborhoods you may be interested in. At times you will find true listings on those sites that are actually availabe and providing accurate features. However, Home Affordable Realty has access to the most up-to-date and comprehensive listings throughout NYC and Long Island.</p>
                     </div>
-                    <div className="needs-items">
-                        <div className="needs-card">
-                            <h2>Purchase</h2>
-                        </div>
+                    <div className="buyers-right">
+                        <h3 className="buyers-heading">Dedicated Agents</h3>
+                        <p className="buyers-para">Our team of agents will work day and night (literally at times) to make sure we meet well above our clients satisfaction. The buying process is not easy, but with Home Affordable Realty it can really seem like its 1-2-3.</p>
                     </div>
                 </div>
             </div>
