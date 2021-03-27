@@ -37,3 +37,16 @@
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
 }
+
+.sellers-needs {
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+    height: auto;
+    margin-left: 310px;
+    padding-top: 60px;
+}
+
+.sellers-right {
+    margin-left: 60px;
+}

@@ -16,6 +16,18 @@ class Sellers extends Component {
                     </div>
                     <img className="sellers-img" src={marbleK} />
                 </div>
+                <div className="sellers-needs">
+                    <div>
+                        <h3 className="sellers-heading">The Committment</h3>
+                        <p className="sellers-para">
+                            We're not here to have your house sitting pretty on our site and other platforms. The job gets done, and more importantly the job gets done in the time frame of your request. We have many different strategies for getting your home sold. At Home Affordable we make sure our agents are equipped with the necessary tools to reach buyers before the competition. Meet with us and find out how we're ready to compete for you. 
+                        </p>
+                    </div>
+                    <div className="sellers-right">
+                        <h3 className="sellers-heading">Adapting to Change</h3>
+                        <p className="sellers-para">Unlike so many companies in the real estate industry, we make sure we're keeping up with the advances in the world to utilize all forms of selling. Home Affordable adapts to every market change as well as all of the marketing resources that expand year after year. </p>
+                    </div>
+                </div>
             </div>
         );
     }
