@@ -11,6 +11,7 @@ import Buyers from './components/Buyers/Buyers';
 import Sellers from './components/Sellers/Sellers';
 
 import './App.css';
+import './AppQueries.css';
 
 export default function App() {
   return (
