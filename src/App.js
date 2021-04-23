@@ -9,7 +9,6 @@ import {
 import Home from './components/Home/Home';
 import Buyers from './components/Buyers/Buyers';
 import Sellers from './components/Sellers/Sellers';
-import LoanModification from './components/LoanModification/LoanModification';
 
 import './App.css';
 
@@ -34,9 +33,6 @@ export default function App() {
             <li>
               <Link to="/sellers">Sellers</Link>
             </li>
-            <li>
-              <Link to="/loanmodification">Loan Modification</Link>
-            </li>
           </ul>
         </nav>
 
@@ -51,9 +47,6 @@ export default function App() {
           </Route>
           <Route path="/">
             <Home />
-          </Route>
-          <Route path="/loanmodification">
-            <LoanModification />
           </Route>
         </Switch>
       </div>
