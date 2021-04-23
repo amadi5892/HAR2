@@ -12,7 +12,7 @@ const monetary = (props) => (
                 <p className="invest-para">
                 Home Affordable Realty doesn't let any opportunities go to waste when it comes to your investments. Your investments means everything to us and we make sure you're ROI will be worth all of your time and energy. Your wish is our command.
                 </p>
-                <button className="invest-btn">Learn More</button>
+                <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdyGnjpu8gQ-huOChIc6VgbQD5bqIoL_ujko8l04Zlonm7-Kg/viewform?usp=sf_link"><button className="invest-btn">Learn More</button></a>
             </div>
             <div className="invest-img">
                 <img src={sunBuilding} alt="Sunset Hitting Building" className="invest-img" />
@@ -24,7 +24,7 @@ const monetary = (props) => (
                 <p className="invest-para">
                 Home Affordable Realty doesn't let any opportunities go to waste when it comes to your investments. Your investments means everything to us and we make sure you're ROI will be worth all of your time and energy. Your wish is our command.
                 </p>
-                <button className="invest-btn">Learn More</button>
+                <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdyGnjpu8gQ-huOChIc6VgbQD5bqIoL_ujko8l04Zlonm7-Kg/viewform?usp=sf_link"><button className="invest-btn">Learn More</button></a>
             </div>
             <div className="invest-img">
                 <img src={paperwork} alt="Sunset Hitting Building" className="invest-img" />

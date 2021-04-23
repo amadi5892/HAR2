@@ -63,7 +63,7 @@ input {
     height: 40px;
 }
 
-form .submit {
+/* form .submit {
     background: transparent;
     border: 2px solid rgb(172, 168, 168);
     color: rgb(172, 168, 168);
@@ -78,6 +78,26 @@ form .submit {
 
 form .submit:hover,
 form .submit:active {
+    background: rgb(172, 168, 168);
+    color: rgb(150,78,78);
+    cursor: pointer;
+} */
+
+.submit {
+    background: transparent;
+    border: 2px solid rgb(172, 168, 168);
+    color: rgb(172, 168, 168);
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    width: 225px;
+    margin: 20px 0 0 85px;
+    font-family: 'Playfair Display', serif;
+}
+
+.submit:hover,
+.submit:active {
     background: rgb(172, 168, 168);
     color: rgb(150,78,78);
     cursor: pointer;

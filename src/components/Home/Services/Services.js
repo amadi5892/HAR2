@@ -13,7 +13,7 @@ const services = (props) => (
                 <p className="service-para">
                     We take pride in being apart of your exciting journey to find your dream home. Home Affordable Realty gives you the best experience possible. Our agents work day and night to find you the best place for new beginnings.
                 </p>
-                <button className="service-btn">Learn More</button>
+                <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdyGnjpu8gQ-huOChIc6VgbQD5bqIoL_ujko8l04Zlonm7-Kg/viewform?usp=sf_link"><button className="service-btn">Learn More</button></a>
                 <img src={greyCouch} alt="Cozy Window View" className="service-img" />
             </div>
             <div className="service-card2">
@@ -21,7 +21,7 @@ const services = (props) => (
                 <p className="service-para">
                     Our team of over 30 years of experience is ready to guide you through the home-selling process and answer your questions. At Home Affordable Realty we get our clients top dollar on all of their properties.
                 </p>
-                <button className="service-btn">Learn More</button>
+                <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdyGnjpu8gQ-huOChIc6VgbQD5bqIoL_ujko8l04Zlonm7-Kg/viewform?usp=sf_link"><button className="service-btn">Learn More</button></a>
                 <img src={whiteKitchen} alt="Cozy Window View" className="service-img" />
             </div>
         </div>
